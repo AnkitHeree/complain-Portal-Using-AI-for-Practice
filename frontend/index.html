@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Complaint Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Submit Complaint</h2>
+
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+
+        <select id="department">
+            <option>IT</option>
+            <option>HR</option>
+            <option>Finance</option>
+        </select>
+
+        <textarea id="message" placeholder="Write complaint"></textarea>
+
+        <button onclick="submitComplaint()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
